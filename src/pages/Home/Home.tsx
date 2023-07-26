@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>QR Code Component</h1>
+      <h1 className="text-2xl font-bold underline">QR Code Component</h1>
       <button onClick={QRComponent}>QR Component</button>
     </div>
   );
