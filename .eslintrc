@@ -1,6 +1,9 @@
 {
   "root": true,
-  "extends": ["./configs/eslint/recommended.cjs", "prettier"],
+  "extends": [
+    // "./configs/eslint/recommended.cjs", 
+    "prettier"
+  ],
   "plugins": ["prettier"],
   "parser": "@typescript-eslint/parser",
     "parserOptions": {
